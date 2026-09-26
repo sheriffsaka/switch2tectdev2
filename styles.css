@@ -1,0 +1,31 @@
+body{
+    background-color: aquamarine;
+    color: blue;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#name{
+    background-color: #00ff62;
+}
+
+#gender{
+    background-color: blue;
+}
+
+.tcell{
+    background-color: yellow;
+}
+
+.tg{
+    background-color: green;
+}
+
+.tw{
+    background-color: white;
+}

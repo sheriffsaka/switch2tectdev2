@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register - Switch2Tech</title>
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1>Register - Switch2Tech</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a
+            href="register.html">Register</a>
+    </nav>
+    <h2>Fill in the details below to create an account</h2>
+    <div>
+        <video src="./videos/movie1.mp4" controls width="200" height="200"></video>
+    </div>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required
+            ><br><br>
+
+        <label for="tel">Telephone:</label>
+        <input type="tel" id="tel" name="tel" placeholder="Enter your telephone number" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required style="background-color:rgb(161, 41, 27)"><br><br>
+
+        <label for="homeaddress">Home Address:</label>
+        <input type="text" id="homeaddress" name="homeaddress" required style="background-color:#567656"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="feedback">Feedback:</label><br><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50">
+
+        </textarea><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <footer>
+        <p style="text-align: center;">&copy; 2026 Switch2Tech. Developed by Switch2Tech Team. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
