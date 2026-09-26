@@ -2,6 +2,7 @@ body{
     background-color: aquamarine;
     color: blue;
     text-align: center;
+    background-image: url("./images/p1.jpg");
 }
 
 p{
